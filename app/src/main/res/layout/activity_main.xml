@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/iv_blue_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:background="@drawable/blue"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+        <TextView
+            android:id="@+id/iv_blue_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+        <TextView
+            android:id="@+id/iv_blue_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+        <TextView
+            android:id="@+id/iv_blue_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+        <TextView
+            android:id="@+id/iv_blue_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:background="@drawable/blue"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+        <TextView
+            android:id="@+id/iv_blue_six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:background="@drawable/blue"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+        <TextView
+            android:id="@+id/iv_red_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/red"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_setradom"
+        android:gravity="center"
+        android:text="生成随机数字"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="增加"/>
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="删除"/>
+        <Button
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="修改"/>
+        <Button
+            android:id="@+id/select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="查询"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/add_tv"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/delete_tv"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/update_tv"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/select_tv"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
